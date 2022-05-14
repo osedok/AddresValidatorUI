@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>models.AddressDetails</OriginalElement>
+  <nodes>
+    <node x="-233.70660457239637" y="780.618966977138">data_output.DataOutput</node>
+    <node x="288.18289585097364" y="509.34801016088056">data_matching.DataMatching</node>
+    <node x="312.3357324301435" y="23.29889923793405">models.AddressDetails</node>
+    <node x="-627.3022861981372" y="23.29889923793405">models.ConfigInfo</node>
+    <node x="-229.20660457239637" y="509.34801016088056">data_input.DataInput</node>
+    <node x="-627.3022861981372" y="509.34801016088056">user_interface.UserInterface</node>
+    <node x="-209.97121083827255" y="23.29889923793405">models.APIResponseProperties</node>
+    <node x="685.1828958509736" y="155.79889923793405">models.Point</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="models.AddressDetails" target="models.Point" relationship="REALIZATION">
+      <point x="92.02921253175327" y="-130.80228619813727" />
+      <point x="557.8649449618968" y="243.5" />
+      <point x="785.1828958509736" y="243.5" />
+      <point x="0.0" y="81.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.85" showDependencies="false" x="343.0" y="670.7058823529412" />
+  <SelectedNodes>
+    <node>models.AddressDetails</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+
